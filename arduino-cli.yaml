@@ -4,9 +4,9 @@ board_manager:
 daemon:
   port: "50051"
 directories:
-  data: /workspace/Arduino
-  downloads: /workspace/Arduino/staging
-  user: /home/gitpod/bin/
+  data: /home/gitpod/.arduino15
+  downloads: /home/gitpod/.arduino15/staging
+  user: /home/gitpod/Arduino
 library:
   enable_unsafe_install: true
 logging:
